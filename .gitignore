@@ -1,6 +1,6 @@
 # node
 node_modules
-package-lock.lock
+package-lock.json
 
 # yarn
 yarn.lock

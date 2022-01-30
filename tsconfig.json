@@ -6,8 +6,9 @@
         "esModuleInterop": true,
         "resolveJsonModule": true,
         "baseUrl": ".",
+        "rootDir": ".",
         "paths": {
-            "@src/*": ["./src/*"]
+            "@src/*": ["./src/*"] // This should be used for relative paths but it seems to not work so I've remove tsconfig-paths dependencies 
         },
         "outDir": "./dist"
     },
